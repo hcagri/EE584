@@ -1,0 +1,50 @@
+% This file was created with tikzplotlib v0.10.1.
+\begin{tikzpicture}
+
+\definecolor{darkgray176}{RGB}{176,176,176}
+
+\begin{axis}[
+legend cell align={left},
+legend style={fill opacity=1.0, draw opacity=1, text opacity=1, at={(0.03,0.03)}, anchor=south west},
+tick align=outside,
+tick pos=left,
+title={Success plot},
+x grid style={darkgray176},
+xlabel={Overlap threshold},
+xmajorgrids,
+xmin=0, xmax=1,
+xtick style={color=black},
+y grid style={darkgray176},
+ylabel={Overlap Precision [\%]},
+ymajorgrids,
+ymin=0, ymax=100,
+ytick style={color=black}
+]
+\addplot [thick, red]
+table {%
+0 98.326057434082
+0.0500000007450581 97.8751602172852
+0.100000001490116 97.4652404785156
+0.150000005960464 96.9888458251953
+0.200000002980232 96.4076766967773
+0.25 95.9017028808594
+0.300000011920929 95.4043807983398
+0.349999994039536 94.6059799194336
+0.400000005960464 93.7975463867188
+0.449999988079071 92.6580200195312
+0.5 91.1046676635742
+0.550000011920929 89.1716079711914
+0.600000023841858 86.7634048461914
+0.649999976158142 83.8766479492188
+0.699999988079071 80.062744140625
+0.75 75.3449249267578
+0.800000011920929 69.1287155151367
+0.850000023841858 57.8309707641602
+0.899999976158142 36.3932418823242
+0.949999988079071 8.21331024169922
+1 0
+};
+\addlegendentry{KEEP_TRACK [78.0]}
+\end{axis}
+
+\end{tikzpicture}
