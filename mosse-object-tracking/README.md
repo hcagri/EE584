@@ -22,3 +22,6 @@ Use mouse to select the object which needs to be tracked and Press **Enter** to 
 
 ## Reference:
 [1] [Visual object tracking using adaptive correlation filters](https://ieeexplore.ieee.org/document/5539960/)
+
+## Original Repository
+https://github.com/TianhongDai/mosse-object-tracking

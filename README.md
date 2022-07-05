@@ -6,8 +6,8 @@ To run the mosse tracker follow the instructions inside the [README](mosse-objec
 
 ---
 ### Environment Setup for Pytracking 
-For these eperiments you need to have a linux machine.  
-To install the dependencies run the following command. `Note: ` 
+For these experiments you need to have a linux machine.  
+To install the dependencies run the following command. 
 
 ```
 bash install.sh
@@ -32,4 +32,7 @@ cd /pytracking
 ```
 python run_tracker.py 'keep_track' 'default' --dataset_name 'got10k_val' --sequence {idx}
 ```
-where idx is the for which sequence you would like to run the tracking algorithm.
+where idx is for which sequence you would like to run the tracking algorithm.
+
+## For Original Pytracking Repository 
+https://github.com/visionml/pytracking
