@@ -92,7 +92,7 @@ gdown https://drive.google.com/uc\?id\=1lzwdeX9HBefQwznMaX5AKAGda7tqeQtg -O pytr
 echo ""
 echo ""
 echo "****************** GOT10k Dataset ******************"
-
+mkdir pytracking/GOT10k
 gdown https://drive.google.com/uc\?id\=1ZJJZfftL_EEU61TwyHPhLmtZP7nq5QR7 -O pytracking/GOT10k
 !unzip pytracking/GOT10k/got10k.zip -d pytracking/GOT10k
 
